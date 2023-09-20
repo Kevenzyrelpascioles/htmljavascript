@@ -1,0 +1,82 @@
+/* Set a background image */
+.background {
+    background-image: url('planet-cool-background-picture.jpg.crdownload'); /* Replace 'your-background-image.jpg' with your image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Style the form container */
+.background center {
+    display: flex;
+    flex-direction: column; /* Stack the form elements vertically */
+    justify-content: flex-start; /* Align the form elements to the top */
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.85); /* Add a semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+/* Style the form elements */
+form {
+    margin-top: 20px;
+}
+
+/* Style the buttons */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Style the buttons on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the headings */
+h2 {
+    color: #333;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the paragraphs */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+/* Style the "Already have an account?" link */
+.ca {
+    color: #007BFF;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Style the "Already have an account?" link on hover */
+.ca:hover {
+    text-decoration: underline;
+}
